@@ -95,7 +95,7 @@ function Email({history}) {
           />
           <Textbox>
             <Warning>※ 반드시 본인의 이메일을 입력해주세요.</Warning>
-            <Alert>※ 계정 분실 시 아이디/비밀번호 찾기, 개인정보 관련 주요 고지사항 안내 등에 사용됩니다.</Alert>
+            <Alert>※ 계정 분실 시 관리자에게 문의하세요.</Alert>
           </Textbox>
           <MyPageButton margin="20px 0px 20px 0px">이메일 변경</MyPageButton>
         </StyledBox>
