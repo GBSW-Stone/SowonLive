@@ -110,19 +110,6 @@ function Password({history}) {
               value={currentPassword} 
               onChange={onChangeHandler}
             />
-            <div>
-                <Alert>
-                  <strong>※ 혹시 타인에게 계정을 양도하려고 하시나요?</strong>
-                  <br/>에브리타임 이용약관에서는 타인에게 계정 판매, 양도 및 대여 등을 엄격하게 금지하고 있습니다.
-                  계정 양도로 인해 사기, 불법 행위가 발생할 경우 관련법에 따라 
-                  <Warning>법적 책임을 지게 될 수 있습니다.</Warning>
-                </Alert>
-                <Alert>
-                  <strong>※ 타인에 의한 계정 사용이 의심되시나요?</strong>
-                  <br/>개인정보를 위해 비밀번호를 변경해주세요. 비밀번호를 변경하면 
-                  <Warning>모든 디바이스에서 즉시 로그아웃 처리됩니다.</Warning>
-                </Alert>
-            </div>
             <MyPageButton>비밀번호 변경</MyPageButton>
           </StyledBox> 
         </form>
