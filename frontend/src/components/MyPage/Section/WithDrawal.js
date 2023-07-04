@@ -56,11 +56,6 @@ function WithDrawal({history}) {
               value={CurrentPassword} 
               onChange={onChangeHandler} 
           />
-          <Alert>
-            ※ 개인정보, 시간표 등의 데이터가 삭제되며, 복구할 수 없습니다.
-            <br/> ※ 작성한 게시물은 삭제되지 않으며, 알수없음으로 닉네임이 표시됩니다.
-            <br/> ※ 자세한 내용은 개인정보 처리방침을 확인해주세요.
-          </Alert>
           <MyPageButton type="submit">회원탈퇴</MyPageButton>
         </form>
       </StyledBox>
